@@ -1,0 +1,37 @@
+{
+  "name": "rn-swipe-to-confirm",
+  "version": "0.0.1",
+  "description": "swipe to confirm component for react-native",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "homepage": "https://github.com/HelKyle/rn-swipe-to-confirm",
+  "keywords": [
+    "react-native",
+    "swipe",
+    "confirm",
+    "swipe to confirm"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "prepublish": "npm run tsc"
+  },
+  "author": {
+    "name": "helkyle",
+    "email": "helkylefighting@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.41",
+    "@types/react-native": "^0.62.16",
+    "react": "^16.13.1",
+    "react-native": "^0.62.2",
+    "typescript": "^3.9.6"
+  },
+  "peerDependencies": {
+    "react": "^16.*",
+    "react-native": "*"
+  }
+}
